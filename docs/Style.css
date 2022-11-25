@@ -28,11 +28,21 @@
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
-    flex-direction: row;
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
 }
 .hvit {
     color: white;
+}
+.justify {
+    display: contents;
+    justify-content: space-around;
+}
+.space-between {
+    display: contents;
 }

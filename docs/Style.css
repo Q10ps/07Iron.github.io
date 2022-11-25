@@ -1,0 +1,38 @@
+.box1 {
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+.row1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.image2 {
+    height: 463px;
+    width: 154px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.img2 {
+    width: 359px;
+    height: 359px;
+    border-radius: 15%;
+
+}
+.sosialelenker {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.hvit {
+    color: white;
+}
